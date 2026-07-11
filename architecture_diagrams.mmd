@@ -1,0 +1,57 @@
+graph TD
+    subgraph External_Unit [Layer 7: External Processing Unit]
+        E1[Edge AI Processor] --> E2[Neural Decoding]
+        E2 --> E3[Digital Visualization]
+        E3 --> E4[Device Management Software]
+    end
+
+    subgraph Implantable_Device [Implantable Neural Interface]
+        subgraph Layer_6 [Layer 6: Security Layer]
+            S1[Kyber-1024 Cryptographic Processor]
+            S2[AES-256 Encrypted Telemetry]
+            S3[Secure Boot / Attestation]
+        end
+
+        subgraph Layer_5 [Layer 5: Power System]
+            P1[STPH Inductive Receiver]
+            P2[Biofuel Backup Module]
+            P3[ADP5091 Power Management]
+            P4[Thermal Monitoring]
+        end
+
+        subgraph Layer_4 [Layer 4: Photonic Network]
+            PH1[SiN/Chalcogenide Waveguides]
+            PH2[Optical Distribution Manifold]
+            PH3[Multi-modal Sensing Paths]
+        end
+
+        subgraph Layer_3 [Layer 3: Optical/Ultrasound Subsystem]
+            OU1[PMUT Imaging Array]
+            OU2[Micro-LED Illumination]
+            OU3[VCSEL Projection]
+            OU4[MEMS Beam Steering]
+            OU5[LCoS Optical Modulation]
+        end
+
+        subgraph Layer_2 [Layer 2: Acquisition ASIC]
+            A1[HSPA-9 CMOS Substrate]
+            A2[Signal Amplification]
+            A3[ADC Conversion]
+            A4[Noise Filtering]
+            A5[Telemetry Preprocessing]
+        end
+
+        subgraph Layer_1 [Layer 1: Neural Interface]
+            N1[32-channel Neurograft Graphene Array]
+            N2[Differential Neural Recording]
+            N3[Local Stimulation]
+            N4[Pt-RTD Temp Sensing]
+        end
+    end
+
+    E4 <==> S2
+    S2 --- P3
+    P3 --- PH1
+    PH1 --- OU1
+    OU1 --- A1
+    A1 --- N1

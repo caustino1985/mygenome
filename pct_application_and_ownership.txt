@@ -1,0 +1,183 @@
+INTERNATIONAL PATENT COOPERATION TREATY (PCT)
+
+REQUEST
+
+FOR RECEIVING OFFICE USE ONLY
+
+Date of receipt by the Receiving Office: [Date of Receipt]
+Application No.: [International Application Number]
+
+Applicant's or Agent's File Reference: [Applicant/Agent Reference]
+
+1. TITLE OF INVENTION:
+Distributed Resonant Field-Coupled Neural Interface System and Methods for Multimodal Neuromodulation
+
+2. APPLICANT:
+Name: [Insert Applicant Name]
+Address: [Insert Applicant Address]
+Nationality: [Insert Applicant Nationality]
+Residence: [Insert Applicant Residence]
+
+3. INVENTOR(S):
+Name: [Insert Inventor Names]
+Address: [Insert Inventor Addresses]
+Nationality: [Insert Inventor Nationalities]
+Residence: [Insert Inventor Residences]
+
+4. AGENT OR COMMON REPRESENTATIVE (if any):
+Name: [Insert Agent Name]
+Address: [Insert Agent Address]
+
+5. DESIGNATION OF STATES:
+The applicant requests that the present international application be processed according to the PCT for the grant of patents in all PCT Contracting States where a patent may be granted, and for the grant of any other intellectual property right which may be granted by the designated Office.
+
+6. PRIORITY CLAIM (if any):
+None (clean-room, independent invention).
+
+7. INTERNATIONAL SEARCHING AUTHORITY:
+[To be determined by Receiving Office]
+
+8. LANGUAGE OF FILING:
+English
+
+9. CHECK LIST:
+(a) Request Form (this form)
+(b) Description
+(c) Claims
+(d) Abstract
+(e) Drawings (if any)
+(f) Power of Attorney (if applicable)
+(g) Fee Calculation Sheet
+
+10. DECLARATIONS:
+The applicant hereby declares that:
+
+(i) Declaration as to the identity of the inventor (Rule 4.17(i)):
+The inventor(s) identified in item 3 is/are the true inventor(s) of the invention for which this international application is filed.
+
+(ii) Declaration as to the applicant's entitlement to apply for and be granted a patent (Rule 4.17(ii)):
+[Insert statement of entitlement, e.g., "The applicant is the assignee of the inventor(s)."]
+
+(iii) Declaration as to the inventorship (Rule 4.17(iv)):
+[Insert statement of inventorship, e.g., "The inventor(s) named in item 3 is/are the sole inventor(s) of the claimed invention."]
+
+
+DESCRIPTION
+
+FIELD OF THE INVENTION
+This invention relates to neural engineering, bioelectronic medicine, brain-computer interfaces (BCI), and distributed sensing and actuation systems. Specifically, it pertains to a distributed, field-coupled, resonance-based neural interface for sensing and modulating neural activity without direct wired electrode arrays.
+
+BACKGROUND ART
+Conventional neural interfaces typically utilize rigid electrodes (e.g., Utah, Michigan arrays) and rely on direct electrical stimulation. These approaches often lead to tissue damage due to mechanical mismatch, limited spatial scalability, and poor multimodal integration. While recent systems have attempted to integrate optical, electrical, and chemical modalities, they generally remain monolithic and invasive.
+
+Problem Statement:
+There exists a significant need for minimally invasive neural interfaces that are capable of distributed sensing and modulation, and that exhibit reduced immune response and improved long-term stability within biological tissues.
+
+SUMMARY OF INVENTION
+The present invention provides a novel distributed resonant field-coupled neural interface system, HARMONI-XTM, designed to overcome the limitations of conventional neural interfaces. The system comprises:
+
+Core Components:
+- Injectable bioelectronic micro-nodes (neurograins)
+- A resonant field communication layer for inter-node and external communication
+- An AI-driven closed-loop controller for adaptive modulation
+- A frequency-domain neural modulation system
+
+Key Novelty:
+- Neural interaction is achieved via resonant coupling, rather than direct current injection.
+- The system employs a swarm-based architecture, contrasting with single-device probes.
+- It features an emergent sensing topology, allowing for adaptive and distributed data acquisition.
+
+BRIEF DESCRIPTION OF THE DRAWINGS
+Figure 1: System-level architecture of the HARMONI-XTM system.
+Figure 2: Internal structure of a neurograin micro-node.
+Figure 3: Model of resonant neural encoding (RNE).
+Figure 4: Diagram of the closed-loop control system.
+Figure 5: Illustration of deployment and distribution of neurograins.
+
+DETAILED DESCRIPTION
+
+System Architecture
+The HARMONI-XTM system consists of a plurality of micro-scale bioelectronic nodes, referred to as neurograins. Each neurograin is configured to detect ionic/neural signals, convert these signals into a frequency-domain representation, and communicate with other neurograins and external components via resonant coupling. The overall system operates with an external control and decode layer that includes AI control, signal fusion, and safety mechanisms, interacting with the distributed neural swarm layer through a resonant field. The neurograins self-organize within the neural tissue to form a functional sensing/stimulation mesh.
+
+Micro-Node Composition
+Each neurograin node includes:
+- An organic electrochemical transistor (OECT) for signal processing, distinct from silicon-dominant designs.
+- A resonant coil/antenna for wireless communication.
+- An ion-sensitive interface layer for chemical sensing.
+- A nano-capacitive stimulation surface for neural modulation.
+This design avoids penetrating shank arrays, thereby sidestepping existing IP in Utah/Michigan-style probes, and operates via capacitive coupling rather than direct current injection.
+
+Signaling Paradigm: Resonant Neural Encoding (RNE)
+Instead of traditional voltage spikes, HARMONI-XTM utilizes frequency-domain modulation aligned to neural oscillations. Neural activity is detected and modulated through frequency locking and resonant amplification, broadcasting signals via the resonant field. This approach offers lower energy requirements, reduced tissue damage, and compatibility with endogenous brain rhythms (e.g., theta, gamma).
+
+Multimodal Capability
+- Electrical: Achieved through oscillatory field entrainment, avoiding direct current injection.
+- Chemical: Passive sensing layer with ion-sensitive polymers detects dopamine proxies, pH shifts, and ionic gradients.
+- Optical: An optional external light field modulates swarm synchrony, without embedded micro-LED arrays, thus avoiding major optogenetics hardware claims.
+
+Control System: Distributed Closed-Loop AI
+The system employs a distributed closed-loop AI architecture. Local signals from neurograins are aggregated via a field aggregation layer, processed by an AI inference engine, which then generates resonant feedback signals to modulate the neurograins. Feedback is global, not electrode-specific, and the system learns network-level neural states rather than focusing on single neurons.
+
+Manufacturing and Deployment
+Neurograins are fabricated using roll-to-roll printed bioelectronics, self-assembling micro-coils, and hydrogel encapsulation. They are designed for injectable deployment via syringe, allowing for self-distribution through cerebrospinal fluid, eliminating the need for surgical implantation arrays.
+
+CLAIMS
+
+1. A distributed neural interface system comprising:
+    a plurality of injectable bioelectronic micro-nodes;
+    each micro-node configured for resonant field coupling with adjacent micro-nodes and an external control unit;
+    wherein neural activity is detected and modulated via frequency-domain synchronization rather than direct electrical stimulation.
+
+2. The system of claim 1, wherein each micro-node comprises an organic electrochemical transistor (OECT).
+
+3. The system of claim 1, wherein the resonant field coupling facilitates communication without direct wired connections.
+
+4. The system of claim 1, wherein the frequency-domain synchronization is aligned to endogenous neural oscillations.
+
+5. The system of claim 1, further comprising an AI-driven closed-loop controller configured to generate global feedback signals based on aggregated neural state information.
+
+6. The system of claim 1, wherein each micro-node includes an ion-sensitive interface layer for chemical sensing.
+
+7. The system of claim 1, wherein the micro-nodes are configured for self-organization into a functional sensing/stimulation mesh within neural tissue.
+
+8. The system of claim 1, wherein the micro-nodes are fabricated using roll-to-roll printed bioelectronics and hydrogel encapsulation.
+
+9. A method for neuromodulation comprising:
+    injecting a plurality of bioelectronic micro-nodes into neural tissue;
+    establishing resonant field coupling between the micro-nodes and an external control unit;
+    detecting neural activity via frequency-domain representation by the micro-nodes;
+    modulating neural activity via frequency-domain synchronization through the resonant field coupling.
+
+10. The method of claim 9, wherein the modulation of neural activity is performed without direct electrical stimulation.
+
+11. The method of claim 9, further comprising processing aggregated neural signals with an AI inference engine to generate control signals for the micro-nodes.
+
+12. The method of claim 9, wherein chemical signals are detected by ion-sensitive polymers within the micro-nodes.
+
+13. The method of claim 9, wherein the micro-nodes self-distribute within the neural tissue.
+
+ABSTRACT
+A distributed neural interface system and methods for multimodal neuromodulation are disclosed. The system, HARMONI-XTM, comprises injectable bioelectronic micro-nodes (neurograins) that communicate via resonant field coupling. Neural activity is detected and modulated through frequency-domain synchronization, avoiding direct electrical stimulation. The system features an AI-driven closed-loop controller and an emergent sensing topology, offering a minimally invasive and adaptive solution for neural interfacing.
+
+
+PUBLIC OWNERSHIP DECLARATION
+
+This declaration is made to affirm the public ownership status of the intellectual property described herein.
+
+WHEREAS, the invention titled "Distributed Resonant Field-Coupled Neural Interface System and Methods for Multimodal Neuromodulation" (hereinafter "the Invention") has been developed with the intent of broad public benefit and accessibility;
+
+WHEREAS, the Applicant/Assignee [Insert Applicant/Assignee Name] recognizes the importance of open innovation and the widespread dissemination of knowledge for scientific and technological advancement;
+
+NOW, THEREFORE, the Applicant/Assignee [Insert Applicant/Assignee Name] hereby declares that the Invention, including all associated intellectual property rights, is intended to be publicly owned and made available under terms that promote its free use, study, modification, and distribution by anyone for any purpose, subject to appropriate attribution.
+
+This declaration is made with the understanding that specific licensing terms, such as those under open-source licenses (e.g., MIT License, Apache License 2.0, Creative Commons licenses), may be applied to facilitate the practical implementation of this public ownership intent.
+
+This declaration shall be binding upon the Applicant/Assignee and its successors and assigns.
+
+Date: [Current Date]
+
+Signature:
+_____________________________
+[Printed Name of Authorized Signatory]
+[Title of Authorized Signatory]
+[Applicant/Assignee Name]
